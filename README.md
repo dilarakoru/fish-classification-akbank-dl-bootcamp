@@ -36,7 +36,7 @@ While the underlying model architecture remains consistent across both project v
 - Learning Rate: 0.001
 - Model Characteristics: A higher batch size allows the model to process more images at once, which can speed up training but might result in less frequent updates. Combined with a higher learning rate, the model adjusts weights more aggressively during training, which can help reach an optimal solution faster but might risk overshooting the optimal point.
 -  Training Behavior: This setup may be more prone to overfitting, but can achieve higher accuracy quickly if the data is well-represented in each batch.
-### Version 2: Training with Smaller Batch Size and Learning Rate
+#### Version 2: Training with Smaller Batch Size and Learning Rate
 
 - Batch Size: 32
 - Learning Rate: 0.0001
